@@ -4,6 +4,8 @@
 // @version      2024-07-22
 // @description  add a shortcut link on NeoDB books for search book in Z-library.
 // @author       shinechn
+// @homepageURL  https://github.com/shinechn
+// @supportURL   https://github.com/shinechn/zlibrary-for-neodb-script
 // @match        https://neodb.social/book/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=neodb.social
 // @grant        none
