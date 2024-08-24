@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Z-library for NeoDB
 // @namespace    http://tampermonkey.net/
-// @version      2024-07-22
+// @version      2024-08-24
 // @description  add a shortcut link on NeoDB books for search book in Z-library.
 // @author       shinechn
 // @homepageURL  https://github.com/shinechn
@@ -30,7 +30,7 @@
 
       // 创建一个新的链接元素
       var searchLink = document.createElement('a');
-      searchLink.href = 'https://singlelogin.re/s/' + encodeURIComponent(bookTitle);
+      searchLink.href = 'https://singlelogin.re/s/?q=' + encodeURIComponent(bookTitle) + '&e=1';
       searchLink.target = '_blank';
       searchLink.textContent = 'Z-library';
       searchLink.style.display = 'inline';
