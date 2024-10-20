@@ -30,7 +30,7 @@
 
       // 创建一个新的链接元素
       var searchLink = document.createElement('a');
-      searchLink.href = 'https://singlelogin.re/s/?q=' + encodeURIComponent(bookTitle) + '&e=1';
+      searchLink.href = 'https://z-library.sk/s/?q=' + encodeURIComponent(bookTitle) + '&e=1';
       searchLink.target = '_blank';
       searchLink.textContent = 'Z-library';
       searchLink.style.display = 'inline';
